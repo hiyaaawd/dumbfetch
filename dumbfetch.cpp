@@ -131,35 +131,23 @@ int main() {
     std::cout << "Network Info: " << networkInfo << std::endl;
 
     #if defined(IS_WINDOWS)
-        std::cout << "\033[1;34mWindows detected\033[0m" << std::endl;
-        std::cout << "\033[1;34m       ___\033[0m" << std::endl;
-        std::cout << "\033[1;34m     /     \\\033[0m" << std::endl;
-        std::cout << "\033[1;34m    /  ___  \\\033[0m" << std::endl;
-        std::cout << "\033[1;34m   /  /   \\  \\\033[0m" << std::endl;
-        std::cout << "\033[1;34m  /  /     \\  \\\033[0m" << std::endl;
-        std::cout << "\033[1;34m /  /       \\  \\\033[0m" << std::endl;
-        std::cout << "\033[1;34m/__/         \\__\\\033[0m" << std::endl;
+    std::cout << "\033[1;34mWindows detected\033[0m" << std::endl;
+    std::cout << "\033[1;34m     +--------+--------+\033[0m" << std::endl;
+    std::cout << "\033[1;34m     |        |        |\033[0m" << std::endl;
+    std::cout << "\033[1;34m     |        |        |\033[0m" << std::endl;
+    std::cout << "\033[1;34m     +--------+--------+\033[0m" << std::endl;
+    std::cout << "\033[1;34m     |        |        |\033[0m" << std::endl;
+    std::cout << "\033[1;34m     |        |        |\033[0m" << std::endl;
+    std::cout << "\033[1;34m     +--------+--------+\033[0m" << std::endl;
     #elif defined(IS_LINUX)
         std::cout << "\033[1;32mLinux detected\033[0m" << std::endl;
-        std::cout << "\033[1;32m                    -`\033[0m" << std::endl;
-        std::cout << "\033[1;32m                   .o+\033[0m" << std::endl;
-        std::cout << "\033[1;32m                  `ooo/\033[0m" << std::endl;
-        std::cout << "\033[1;32m                 `+oooo:\033[0m" << std::endl;
-        std::cout << "\033[1;32m                `+oooooo:\033[0m" << std::endl;
-        std::cout << "\033[1;32m                -+oooooo+:\033[0m" << std::endl;
-        std::cout << "\033[1;32m              `/:-:++oooo+:\033[0m" << std::endl;
-        std::cout << "\033[1;32m             `/++++/+++++++:\033[0m" << std::endl;
-        std::cout << "\033[1;32m            `/++++++++++++++:\033[0m" << std::endl;
-        std::cout << "\033[1;32m           `/+++ooooooooooooo/`\033[0m" << std::endl;
-        std::cout << "\033[1;32m          ./ooosssso++osssssso+`\033[0m" << std::endl;
-        std::cout << "\033[1;32m         .oossssso-````/ossssss+`\033[0m" << std::endl;
-        std::cout << "\033[1;32m        -osssssso.      :ssssssso.\033[0m" << std::endl;
-        std::cout << "\033[1;32m       :osssssss/        osssso+++.\033[0m" << std::endl;
-        std::cout << "\033[1;32m      /ossssssss/        +ssssooo/-\033[0m" << std::endl;
-        std::cout << "\033[1;32m    `/ossssso+/:-        -:/+osssso+-\033[0m" << std::endl;
-        std::cout << "\033[1;32m   `+sso+:-`                 `.-/+oso:\033[0m" << std::endl;
-        std::cout << "\033[1;32m  `++:.                           `-/+/\033[0m" << std::endl;
-        std::cout << "\033[1;32m  .`                                 `/\033[0m" << std::endl;
+        std::cout << "\033[1;32m    .--.\033[0m" << std::endl;
+        std::cout << "\033[1;32m   |o_o |\033[0m" << std::endl;
+        std::cout << "\033[1;32m   |:_/ |\033[0m" << std::endl;
+        std::cout << "\033[1;32m  //   \\ \\\033[0m" << std::endl;
+        std::cout << "\033[1;32m (|     | )\033[0m" << std::endl;
+        std::cout << "\033[1;32m/'\\_   _/`\\\033[0m" << std::endl;
+        std::cout << "\033[1;32m\\___)=(___/\033[0m" << std::endl;
     #elif defined(IS_MACOS)
         std::cout << "\033[1;35mMac OS detected\033[0m" << std::endl;
         std::cout << "\033[1;35m                .:'              \033[0m" << std::endl;
@@ -171,13 +159,12 @@ int main() {
         std::cout << "\033[1;35m          `.__.-.__.'            \033[0m" << std::endl;
     #else
         std::cout << "\033[1;31mUnknown OS detected\033[0m" << std::endl;
-        std::cout << "\033[1;31m   .--.                          \033[0m" << std::endl;
-        std::cout << "\033[1;31m  |o_o |                         \033[0m" << std::endl;
-        std::cout << "\033[1;31m  |:_/ |                         \033[0m" << std::endl;
-        std::cout << "\033[1;31m //   \\ \\                        \033[0m" << std::endl;
-        std::cout << "\033[1;31m(|     | )                       \033[0m" << std::endl;
-        std::cout << "\033[1;31m/'\\_   _/`\\                      \033[0m" << std::endl;
-        std::cout << "\033[1;31m\\___)=(___/                      \033[0m" << std::endl;
+        std::cout << "\033[1;31m     _____  \033[0m" << std::endl;
+        std::cout << "\033[1;31m    /     \\ \033[0m" << std::endl;
+        std::cout << "\033[1;31m   | () () | \033[0m" << std::endl;
+        std::cout << "\033[1;31m    \\  ^  / \033[0m" << std::endl;
+        std::cout << "\033[1;31m     |||||  \033[0m" << std::endl;
+        std::cout << "\033[1;31m     |||||  \033[0m" << std::endl;
     #endif
 
     return 0;
